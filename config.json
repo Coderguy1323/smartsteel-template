@@ -1,0 +1,43 @@
+{
+  "businessName": "Smart Steel",
+  "tagline": "Precision steel fabrication",
+  "email": "anura.dewage@icloud.com",
+  "phone": "+94 77 000 0000",
+  "location": "Sri Lanka",
+  "hours": "Mon–Sat: 9am–6pm",
+
+  "heroKicker": "Precision steel fabrication",
+  "heroTitle": "Delivering strong, durable solutions",
+  "heroSubtitle": "Custom gates, handrails, fences, grills, and bespoke steel designs — built to last with neat, tidy workmanship.",
+  "yearsExperience": "15+",
+  "promise1": "Neat",
+  "promise2": "Durable",
+
+  "aboutText": "Smart Steel delivers custom steel works for residential, commercial, and industrial projects. With 15+ years of hands-on welding and fabrication experience, we focus on strength, safety, and a clean finish — every time.",
+  "footerText": "Custom steel fabrication — gates, handrails, fences, grills, and bespoke designs.",
+
+  "capabilities": ["Gates", "Handrails", "Fences", "Grills", "Stair Railings", "Bespoke Designs"],
+  "reasons": [
+    "Neat & tidy finishing with strong weld quality",
+    "Design guidance to match your space and budget",
+    "Safety-first approach for rails and stairworks",
+    "Durable materials and long-lasting build"
+  ],
+
+  "servicesIntro": "Precision-crafted steel solutions tailored to your space, style, and budget.",
+  "services": [
+    { "title": "Custom steel gates", "desc": "Enhance security and aesthetics with tailor-made gates built to last." },
+    { "title": "Steel handrails", "desc": "Stylish, sturdy handrails for stairs, balconies, and ramps." },
+    { "title": "Custom steel fences", "desc": "Durable fencing solutions designed around your property layout." },
+    { "title": "Grills & security bars", "desc": "Strong protection with a clean, modern finish." },
+    { "title": "Stair railings", "desc": "Safe, compliant railings with design options to suit your home or site." },
+    { "title": "Bespoke fabrication", "desc": "Custom builds from sketches, photos, or site measurements." }
+  ],
+
+  "galleryIntro": "Explore some of our recent work.",
+  "gallery": [
+    { "src": "assets/gallery-1.jpeg", "alt": "Stainless steel handrail" },
+    { "src": "assets/gallery-2.jpeg", "alt": "Custom steel gate" },
+    { "src": "assets/gallery-3.jpeg", "alt": "Steel fence fabrication" }
+  ]
+}

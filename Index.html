@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Steel | Custom Steel Fabrication</title>
+  <meta name="description" content="Custom steel fabrication: gates, handrails, fences, grills, and bespoke designs. 15+ years experience. Neat & tidy workmanship." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Smart Steel | Custom Steel Fabrication" />
+  <meta property="og:description" content="Strong, durable, precision-crafted steel solutions for residential and commercial projects." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="dot"></span>
+        <span data-text="tagline">Precision steel fabrication</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="#contact" data-text="email">hello@smartsteel.lk</a>
+        <span class="sep">•</span>
+        <a class="topbar__link" href="tel:+94770000000" data-text="phone">+94 77 000 0000</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home">
+        <span class="brand__mark">SS</span>
+        <span class="brand__name" data-text="businessName">Smart Steel</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn btn--small">Get a Quote</a>
+      </nav>
+
+      <button class="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="kicker" data-text="heroKicker">Precision steel fabrication</p>
+          <h1 data-text="heroTitle">Delivering strong, durable solutions</h1>
+          <p class="lead" data-text="heroSubtitle">
+            Custom gates, handrails, fences, grills, and bespoke steel designs — built to last with neat, tidy workmanship.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#services">View Services</a>
+            <a class="btn btn--ghost" href="#contact">Request Quote</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__num" data-text="yearsExperience">15+</div>
+              <div class="stat__label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num" data-text="promise1">Neat</div>
+              <div class="stat__label">Workmanship</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num" data-text="promise2">On-time</div>
+              <div class="stat__label">Delivery</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="heroCard">
+            <img src="assets/hero.png" alt="Welder working on steel fabrication" />
+            <div class="heroCard__badge">
+              <span class="badge">Welding • Fabrication • Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid2">
+        <div>
+          <h2>Expert steel fabrication</h2>
+          <p class="muted" data-text="aboutText">
+            Smart Steel delivers custom steel works for residential, commercial, and industrial projects. With 15+ years of hands-on welding and fabrication experience, we focus on strength, safety, and a clean finish — every time.
+          </p>
+
+          <div class="pillRow" id="capabilities"></div>
+
+          <div class="ctaRow">
+            <a class="btn btn--ghost" href="#gallery">See our work</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="featureCard">
+          <h3>Why clients choose us</h3>
+          <ul class="checklist" id="reasons"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Custom steel fabrication</h2>
+          <p class="muted" data-text="servicesIntro">
+            Precision-crafted steel solutions tailored to your space, style, and budget.
+          </p>
+        </div>
+
+        <div class="cards" id="servicesList"></div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Stainless steel showcase</h2>
+          <p class="muted" data-text="galleryIntro">Explore some of our recent work.</p>
+        </div>
+
+        <div class="gallery" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container grid2">
+        <div>
+          <h2>Get a quote</h2>
+          <p class="muted">
+            Tell us what you need and we’ll respond with options, pricing, and timeline.
+          </p>
+
+          <!-- Netlify Forms (works on Netlify without backend) -->
+          <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+            <input type="hidden" name="form-name" value="quote" />
+            <p class="hidden">
+              <label>Don’t fill this out: <input name="bot-field" /></label>
+            </p>
+
+            <div class="row2">
+              <label>
+                Name
+                <input name="name" required />
+              </label>
+              <label>
+                Phone
+                <input name="phone" />
+              </label>
+            </div>
+
+            <label>
+              Email
+              <input name="email" type="email" required />
+            </label>
+
+            <label>
+              What do you need?
+              <textarea name="message" rows="5" placeholder="Example: front gate, handrails, fence…"></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+            <p class="fineprint">By submitting, you agree we can contact you about your inquiry.</p>
+          </form>
+        </div>
+
+        <aside class="featureCard">
+          <h3>Contact details</h3>
+          <div class="info">
+            <div class="info__row">
+              <span class="info__label">Email</span>
+              <span class="info__value" data-text="email">hello@smartsteel.lk</span>
+            </div>
+            <div class="info__row">
+              <span class="info__label">Phone</span>
+              <span class="info__value" data-text="phone">+94 77 000 0000</span>
+            </div>
+            <div class="info__row">
+              <span class="info__label">Location</span>
+              <span class="info__value" data-text="location">Sri Lanka</span>
+            </div>
+            <div class="info__row">
+              <span class="info__label">Hours</span>
+              <span class="info__value" data-text="hours">Mon–Sat: 9am–6pm</span>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Quick services</h3>
+          <ul class="miniList" id="quickServices"></ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark">SS</span>
+          <span class="brand__name" data-text="businessName">Smart Steel</span>
+        </div>
+        <p class="muted small" data-text="footerText">
+          Custom steel fabrication — gates, handrails, fences, grills, and bespoke designs.
+        </p>
+      </div>
+      <p class="muted small">© <span id="year"></span> <span data-text="businessName">Smart Steel</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
