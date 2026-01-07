@@ -1,7 +1,7 @@
 {
   "businessName": "Smart Steel",
   "tagline": "Precision steel fabrication",
-  "email": "anura.dewage@icloud.com",
+  "email": "smart-steel@icloud.com",
   "phone": "+94 77 000 0000",
   "location": "Sri Lanka",
   "hours": "Mon–Sat: 9am–6pm",
@@ -41,3 +41,4 @@
     { "src": "assets/gallery-3.jpeg", "alt": "Steel fence fabrication" }
   ]
 }
+
