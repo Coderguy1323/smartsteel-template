@@ -2,8 +2,8 @@
   "businessName": "Smart Steel",
   "tagline": "Precision steel fabrication",
   "email": "smart-steel@icloud.com",
-  "phone": "+94 77 000 0000",
-  "location": "Sri Lanka",
+  "phone": "+94 76 690 0356",
+  "location": "Kaluthara - Sri Lanka",
   "hours": "Mon–Sat: 9am–6pm",
 
   "heroKicker": "Precision steel fabrication",
@@ -41,4 +41,5 @@
     { "src": "assets/gallery-3.jpeg", "alt": "Steel fence fabrication" }
   ]
 }
+
 
